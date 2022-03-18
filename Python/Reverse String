@@ -26,3 +26,7 @@ class Solution:
             s[len(s)-1-i] = lo
             i += 1
         return s
+
+
+or you could just do:
+s = s.reverse()
